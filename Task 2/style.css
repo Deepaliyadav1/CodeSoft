@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Kalam", cursive; */
+
+    header {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(#5f5472e6,#000000e6),
+                     url(background\ 2.jpg);
+                background-size: cover;
+                color: white;
+ }
+
+ nav{
+    width: 100%;
+    height: 100px;
+    /* background: #59253A; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: "Poppins", sans-serif;
+}
+
+ .logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+ }
+
+ .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+    transition: 2s;
+ }
+
+ .menu a:nth-child(5) {
+    background: #895061;
+    border-radius: 8px;
+    margin: 0 1rem;
+ }
+
+ .menu i {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+ }
+
+ .menu a:hover {
+    background: #895061;
+    border-radius: 8px;
+ }
+
+ .container {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
+ }
+
+ .right {
+    flex-basis: 50%;
+    margin-bottom: 7rem;
+    animation-delay: 1.5s;
+    transition-delay: 3s;
+ }
+
+ .left {
+    flex-basis: 30%;
+    animation-delay: 5s;
+    transition: 2s;
+ }
+
+ .left img {
+    height: 530px;
+    width: 90%;
+    margin-bottom: 8rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+ }
+
+
+
+ .right h2{
+    font-family: "Poppins", sans-serif;
+    color: #e0a8b9;
+    font-size: 3rem;
+ }
+
+.right h1 {
+        font-family: "Kalam", cursive; 
+        font-size: 5rem;
+
+}
+
+.right p {
+    font-family: "Poppins", sans-serif;
+    line-height: 2.5rem;
+}
+
+#hire {
+    text-decoration: none;
+    background: #895061;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+}
+
+#myp {
+    text-decoration: none;
+    /* background: #895061; */
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: 1px dashed white;
+    margin: 0 1rem;
+}
+
+#bio {
+   padding: 150px 70px;
+   cursor: pointer;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   font-family: "Poppins", sans-serif;
+   background: rgba(0, 0, 0, 0.2);
+
+}
+
+#bio p {
+   margin: 15px 0;
+   line-height: 2.5rem;
+   font-weight: bold;
+   font-size: 1.2rem;
+}
+
+#bio h1 {
+   font-size: 3rem;
+   font-weight: bolder;
+   color: #6f3b4b;
+}
+
+#follow {
+   text-align: center;
+}
+
+#follow p {
+   font-size: 1.7rem;
+}
+
+#follow i{
+   color: #895061;
+   font-size: 2rem;
+   margin: 2rem 0.5rem;
+}
+
+.link-h {
+   text-align: center;
+   margin-top: 4rem ;
+}
+
+#More {
+   text-decoration: none;
+    background: #895061;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+}
+
+#cv {
+   text-decoration: none;
+   color: black;
+   padding: 1rem 1rem;
+   border-radius: 8px;
+   font-size: 1.5rem;
+   margin: 0 1rem;
+   border: 1px dashed gray;
+
+}
+
+#services {
+   padding: 50px 70px;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.2);
+   font-family: "Poppins", sans-serif;
+   text-align: center;
+   margin-top: 0.5rem;
+}
+
+.intro h1 {
+   font-size: 3rem;
+}
+
+.card {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 3rem 5rem;
+}
+
+.cardbody {
+   flex-basis: 20%;
+   background: white;
+   padding: 2.5rem;
+   border-radius: 8px;
+}
+
+.cardbody:hover {
+   background: #895061;
+   color: white;
+   border-radius: 30px;
+}
+
+.cardbody h3 {
+   font-size: 1.5rem;
+   margin: 0.5rem 0;
+}
+
+.cardbody p {
+   text-align: center;
+   font-weight: 600;
+}
+
+.cardbody i {
+   font-size: 2.5rem;
+   color: #895061;
+}
+
+.cardbody-skills {
+   flex-basis: 30%;
+   background: white;
+   padding: 2rem;
+   border-radius: 8px;
+}
+
+.cardbody-skills:hover {
+   background: #895061;
+   color: white;
+}
+
+.card-wrapper {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+
+
+.section-heading {
+   text-align: center;
+   margin-bottom: 3rem;
+   margin-top: 0.5rem;
+   font-size: 2rem;
+}
+
+.card2 {
+   text-align: center;
+}
+
+.card2 img {
+   height: 50%;
+   width: 30%;
+   margin-bottom: 1.5rem;
+}
+
+.card2 h2 {
+   margin-bottom: 1rem;
+}
+
+.contact {
+   background: rgba(0, 0, 0, 0.2);
+}
+footer {
+   background: #895061;
+   color: white;
+   font-size: 2rem;
+   padding: 0.5rem;
+   font-family: "Poppins", sans-serif;
+}
